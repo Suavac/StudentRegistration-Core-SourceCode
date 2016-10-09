@@ -52,6 +52,6 @@ public class Course {
 
     @Override
     public String toString() {
-        return this.courseName + "\n Programme" + this.startDate.toString() + " - " + this.endDate.toString();
+        return this.courseName + "\nProgramme:\t" + this.startDate.toString() + " - " + this.endDate.toString();
     }
 }
